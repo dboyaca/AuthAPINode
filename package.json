@@ -1,0 +1,29 @@
+{
+  "name": "authapinode",
+  "version": "1.0.0",
+  "description": "This package contain the web services needed to set up the log in and sign up services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dboyaca/AuthAPINode.git"
+  },
+  "author": "dboyaca",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dboyaca/AuthAPINode/issues"
+  },
+  "homepage": "https://github.com/dboyaca/AuthAPINode#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.1",
+    "nodemon": "^3.1.10"
+  }
+}
